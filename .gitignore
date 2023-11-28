@@ -1,0 +1,17 @@
+**/*__pycache*
+models/**/*.ckpt
+logs
+src/
+*.egg-info
+run_both.sh
+data/diffusion*
+**/*.ipynb_checkpoints
+nohup.out
+models/**/*.zip
+slurm/
+cluster_runs.py
+.vscode/
+scripts/notebooks/wandb
+wandb
+outputs
+taming/
