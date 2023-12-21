@@ -1,6 +1,6 @@
 # PathLDM: Text conditioned Latent Diffusion Model for Histopathology
 
-Official code for our WACV 2024 publication [PathLDM: Text conditioned Latent Diffusion Model for Histopathology.](https://arxiv.org/abs/2309.00748) This codebase builds heavily on [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
+Official code for our WACV 2024 publication [PathLDM: Text conditioned Latent Diffusion Model for Histopathology.](https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf) This codebase builds heavily on [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
 
 ## Requirements
 To install python dependencies, 
@@ -40,13 +40,13 @@ python main.py -t --gpus 0,1 --base configs/latent-diffusion/text_cond/plip_imag
 ## BibTeX
 
 ```
-@misc{yellapragada2023pathldm,
-      title={PathLDM: Text conditioned Latent Diffusion Model for Histopathology}, 
-      author={Srikar Yellapragada and Alexandros Graikos and Prateek Prasanna and Tahsin Kurc and Joel Saltz and Dimitris Samaras},
-      year={2023},
-      eprint={2309.00748},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Yellapragada_2024_WACV,
+    author    = {Yellapragada, Srikar and Graikos, Alexandros and Prasanna, Prateek and Kurc, Tahsin and Saltz, Joel and Samaras, Dimitris},
+    title     = {PathLDM: Text Conditioned Latent Diffusion Model for Histopathology},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {5182-5191}
 }
 ```
 
