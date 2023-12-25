@@ -15,3 +15,4 @@ scripts/notebooks/wandb
 wandb
 outputs
 taming/
+plip_imagenet_finetune
