@@ -12,13 +12,15 @@ conda activate ldm
 
 ## Downloading + Organizing Data
 
-We obtained machine readable text reports for TCGA from [here](https://github.com/tatonetti-lab/tcga-path-reports), and used GPT-3.5 to summarize them. Summaries of all BRCA reports can be found [here](https://drive.google.com/drive/folders/1it4W4DBN4xFrLFX3nyVGoW0mTVklF6WY?usp=sharing).
+>**tl;dr** : TCGA-BRCA Image patches, captions and Tumor/TIL probabilities used in our training can be downloaded from [this link](https://drive.google.com/drive/folders/1MPBsVjh7q57DzYJXSLF2wkKjssw3jEtF?usp=sharing).
+
+
+We obtained machine readable text reports for TCGA from [this repo](https://github.com/tatonetti-lab/tcga-path-reports), and used GPT-3.5 to summarize them. Summaries of all BRCA reports can be found at [this link](https://drive.google.com/drive/folders/1it4W4DBN4xFrLFX3nyVGoW0mTVklF6WY?usp=sharing).
 
 ### Obtaining Tumor and TIL probabilities
 
-We use [wsinfer](https://wsinfer.readthedocs.io/en/latest/) to obtain tumor and TIL probabilities. wsinfer works directly with the WSI files, and outputs a csv with the probabilities for each patch, but the size and magnification might be different from the patches extracted by DSMIL. For each 10x patch, we use the average probabilities of the overlapping patches from wsinfer.  
+We used [wsinfer](https://wsinfer.readthedocs.io/en/latest/) to obtain tumor and TIL probabilities. Wsinfer works directly with the WSI files, and outputs a csv with the probabilities for each patch, but the size and magnification might be different from the patches extracted by DSMIL. For each 10x patch, we use the average probabilities of the overlapping patches from wsinfer.  
 
-We will upload the patch data and the wsinfer probabilities used in our training soon.
 
 ### Download the WSIs
 
