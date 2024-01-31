@@ -12,7 +12,7 @@ conda activate ldm
 
 ## Downloading + Organizing Data
 
->**tl;dr** : TCGA-BRCA Image patches, captions and Tumor/TIL probabilities used in our training can be downloaded from [this link](https://drive.google.com/drive/folders/1MPBsVjh7q57DzYJXSLF2wkKjssw3jEtF?usp=sharing).
+>**tl;dr** : TCGA-BRCA Image patches, captions and Tumor/TIL probabilities used in our training can be downloaded from [this link](https://drive.google.com/drive/folders/1MPBsVjh7q57DzYJXSLF2wkKjssw3jEtF?usp=sharing). See [this file](https://github.com/cvlab-stonybrook/PathLDM/blob/main/ldm/data/text_cond/tumor_til_in_text.py) for the Dataset class we use during training. 
 
 
 We obtained machine readable text reports for TCGA from [this repo](https://github.com/tatonetti-lab/tcga-path-reports), and used GPT-3.5 to summarize them. Summaries of all BRCA reports can be found at [this link](https://drive.google.com/drive/folders/1it4W4DBN4xFrLFX3nyVGoW0mTVklF6WY?usp=sharing).
