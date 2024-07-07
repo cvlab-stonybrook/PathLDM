@@ -2,6 +2,10 @@
 
 Official code for our WACV 2024 publication [PathLDM: Text conditioned Latent Diffusion Model for Histopathology.](https://openaccess.thecvf.com/content/WACV2024/papers/Yellapragada_PathLDM_Text_Conditioned_Latent_Diffusion_Model_for_Histopathology_WACV_2024_paper.pdf) This codebase builds heavily on [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
 
+## Updates
+💥 Check out our CVPR paper - [Learned representation-guided diffusion models for large-image generation
+](https://histodiffusion.github.io/docs/publications/cvpr_24), where we train histopathology diffusion models without labeled data.
+
 ## Requirements
 To install python dependencies, 
 
